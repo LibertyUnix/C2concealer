@@ -3,6 +3,4 @@ if [ "$(id -u)" != "0" ]; then
   echo
   exit 1
 fi
-apt-get install python3-pip
-apt-get install default-jre
 pip3 install -e .
